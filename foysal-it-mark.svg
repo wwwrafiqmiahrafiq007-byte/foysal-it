@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="56" fill="#250022"/>
+  <path d="M34 34H222V222H34V34Z" fill="url(#grid)" opacity="0.2"/>
+  <path d="M84 60L36 108L84 156" stroke="url(#left)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M172 60L220 108L172 156" stroke="url(#right)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M156 40L74 216" stroke="#F2EA35" stroke-width="17" stroke-linecap="round"/>
+  <path d="M104 112H151" stroke="white" stroke-width="13" stroke-linecap="round"/>
+  <path d="M104 96V154" stroke="white" stroke-width="13" stroke-linecap="round"/>
+  <path d="M155 96H190" stroke="white" stroke-width="13" stroke-linecap="round"/>
+  <path d="M172 99V154" stroke="white" stroke-width="13" stroke-linecap="round"/>
+  <rect x="71" y="174" width="18" height="18" rx="4" transform="rotate(45 71 174)" fill="#C313E7"/>
+  <rect x="187" y="53" width="18" height="18" rx="4" transform="rotate(45 187 53)" fill="#F2EA35"/>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#70116E" stroke-width="2"/>
+    </pattern>
+    <linearGradient id="left" x1="36" y1="60" x2="102" y2="156" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2EA35"/>
+      <stop offset="1" stop-color="#B40CF0"/>
+    </linearGradient>
+    <linearGradient id="right" x1="154" y1="60" x2="220" y2="156" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B40CF0"/>
+      <stop offset="1" stop-color="#F2EA35"/>
+    </linearGradient>
+  </defs>
+</svg>
