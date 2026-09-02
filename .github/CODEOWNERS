@@ -1,0 +1,6 @@
+# Default code owner for the repository
+* @wwwrafiqmiahrafiq007-byte
+
+# Security-sensitive areas
+/.github/ @wwwrafiqmiahrafiq007-byte
+/docs/ @wwwrafiqmiahrafiq007-byte
