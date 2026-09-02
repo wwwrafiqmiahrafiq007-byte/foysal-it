@@ -1,0 +1,7 @@
+# Wasmer Edge deployment configuration.
+# Keep this target separate from Vercel/Netlify configuration.
+kind: wasmer.io/App.v0
+name: foysal-it
+# Wasmer can auto-detect Next.js/JavaScript projects from the repository.
+# Keep the app configuration minimal unless Wasmer requires an explicit
+# runtime/package override for the selected deployment mode.
