@@ -1,0 +1,6 @@
+{
+  "name": "FOYSAL IT OS",
+  "description": "AI-powered lead intelligence, digital audit, outreach automation and AI-human workforce operating system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

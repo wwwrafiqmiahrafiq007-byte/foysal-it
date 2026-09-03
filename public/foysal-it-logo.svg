@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="magentaYellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D946EF" />
+      <stop offset="50%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#FACC15" />
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#EAB308" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Deep Purple/Plum Rounded Canvas -->
+  <rect width="500" height="500" rx="64" fill="#1b001a"/>
+
+  <!-- Subtle Ambient Glow -->
+  <circle cx="250" cy="200" r="160" fill="url(#magentaYellowGrad)" opacity="0.15" filter="url(#softGlow)"/>
+
+  <!-- Main Diamond Ribbon / Circuit Emblem (Rotated 45deg) -->
+  <g transform="translate(250, 190) rotate(45)">
+    <!-- Outer Diamond Stroke -->
+    <rect x="-85" y="-85" width="170" height="170" rx="34" fill="none" stroke="url(#magentaYellowGrad)" stroke-width="18" stroke-linecap="round" filter="url(#softGlow)"/>
+    <!-- Inner Accent Layer -->
+    <rect x="-60" y="-60" width="120" height="120" rx="24" fill="#250022" stroke="#FDE047" stroke-width="6" stroke-opacity="0.8"/>
+  </g>
+
+  <!-- Center Monogram "FT" (FOYSAL IT) -->
+  <g transform="translate(250, 195)">
+    <!-- Center Pill Background -->
+    <rect x="-44" y="-24" width="88" height="48" rx="24" fill="#D946EF" fill-opacity="0.2" stroke="#FACC15" stroke-width="2"/>
+    <text x="0" y="9" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="3">FT</text>
+  </g>
+
+  <!-- Brand Typography: FOYSAL IT -->
+  <g transform="translate(250, 360)">
+    <text x="0" y="0" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" fill="#FFFFFF" letter-spacing="6">FOYSAL IT</text>
+    <text x="0" y="32" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="14" fill="#FACC15" letter-spacing="8" opacity="0.9">UNIFIED AI AGENCY OS</text>
+  </g>
+</svg>
